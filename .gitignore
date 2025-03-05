@@ -1,0 +1,5 @@
+.venv/
+*.csv
+*.parquet.gzip
+
+.DS_Store
