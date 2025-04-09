@@ -1,83 +1,3 @@
-2025-03-05 11:26:01,164 - INFO - Starting fold 1/3
-2025-03-05 11:26:03,390 - INFO - Fold 1: Dataset constructed with 4203885 training interactions
-2025-03-05 11:26:03,391 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.2, 'trend_weight': 0.3}
-2025-03-05 11:30:14,088 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.3348705349876438, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 11.666476820739579, 'Diversity@10': 0.2231860626374758, 'Serendipity@10': 0.9000000000000002}
-2025-03-05 11:30:14,090 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.2, 'trend_weight': 0.5}
-2025-03-05 11:34:28,146 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.3348705349876438, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 11.666476820739579, 'Diversity@10': 0.2231860626374758, 'Serendipity@10': 0.9000000000000002}
-2025-03-05 11:34:28,148 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.4, 'trend_weight': 0.3}
-2025-03-05 11:38:37,702 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.3348705349876438, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 11.666476820739579, 'Diversity@10': 0.2231860626374758, 'Serendipity@10': 0.9000000000000002}
-2025-03-05 11:38:37,704 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.4, 'trend_weight': 0.5}
-2025-03-05 11:42:49,195 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.3348705349876438, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 11.666476820739579, 'Diversity@10': 0.2231860626374758, 'Serendipity@10': 0.9000000000000002}
-2025-03-05 11:42:49,197 - INFO - Fold 1: Training MostPop with params {'days': 30, 'seasonal_weight': 0.2, 'trend_weight': 0.3}
-2025-03-05 11:44:25,217 - INFO - Starting fold 1/3
-2025-03-05 11:44:27,451 - INFO - Fold 1: Dataset constructed with 4203885 training interactions
-2025-03-05 11:44:27,452 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.2, 'trend_weight': 0.3}
-2025-03-05 11:44:27,490 - INFO - Top 10 items in popularity: [10440, 9728, 15297, 10813, 13070, 3734, 13865, 11863, 6743, 4631]
-2025-03-05 11:44:27,730 - INFO - Intersection between test and recs: 10 items
-2025-03-05 11:48:40,013 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.41348375592528547, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 7.304948853882878, 'Diversity@10': 0.31934903208890214, 'Serendipity@10': 0.4}
-2025-03-05 11:48:40,016 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.2, 'trend_weight': 0.5}
-2025-03-05 11:48:40,081 - INFO - Top 10 items in popularity: [10813, 13070, 6743, 9052, 9728, 10440, 15297, 2099, 9354, 4631]
-2025-03-05 11:48:40,333 - INFO - Intersection between test and recs: 10 items
-2025-03-05 11:52:52,124 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.34234706196653064, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 10.397759583276924, 'Diversity@10': 0.23833526444560785, 'Serendipity@10': 0.7}
-2025-03-05 11:52:52,125 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.4, 'trend_weight': 0.3}
-2025-03-05 11:52:52,149 - INFO - Top 10 items in popularity: [4631, 9728, 10440, 10813, 13070, 15297, 6743, 8636, 9052, 14763]
-2025-03-05 11:52:52,399 - INFO - Intersection between test and recs: 10 items
-2025-03-05 11:57:01,482 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.3679664866421491, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 9.477902082464498, 'Diversity@10': 0.23392650802720863, 'Serendipity@10': 0.5999999999999998}
-2025-03-05 11:57:01,483 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.4, 'trend_weight': 0.5}
-2025-03-05 11:57:01,552 - INFO - Top 10 items in popularity: [10813, 13070, 4631, 6743, 9052, 2099, 9354, 8636, 14763, 14688]
-2025-03-05 11:57:01,818 - INFO - Intersection between test and recs: 10 items
-2025-03-05 12:01:12,383 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.33066717005825624, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 12.879074964289432, 'Diversity@10': 0.030603139059415585, 'Serendipity@10': 0.9000000000000002}
-2025-03-05 12:01:12,385 - INFO - Fold 1: Training MostPop with params {'days': 30, 'seasonal_weight': 0.2, 'trend_weight': 0.3}
-2025-03-05 12:01:12,461 - INFO - Top 10 items in popularity: [15297, 9728, 10440, 10813, 13070, 13865, 6743, 3734, 5601, 4631]
-2025-03-05 12:01:12,702 - INFO - Intersection between test and recs: 9 items
-2025-03-05 12:05:23,629 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.4078028880123428, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 8.36836189119221, 'Diversity@10': 0.33073652491633615, 'Serendipity@10': 0.5}
-2025-03-05 12:05:23,631 - INFO - Fold 1: Training MostPop with params {'days': 30, 'seasonal_weight': 0.2, 'trend_weight': 0.5}
-2025-03-05 12:05:23,672 - INFO - Top 10 items in popularity: [10813, 13070, 6743, 9052, 15297, 2099, 11308, 9354, 5601, 9728]
-2025-03-05 12:05:23,906 - INFO - Intersection between test and recs: 8 items
-2025-03-05 12:09:41,183 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.3355534438412356, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 12.077022053026637, 'Diversity@10': 0.10167571397042763, 'Serendipity@10': 0.8}
-2025-03-05 12:09:41,184 - INFO - Fold 1: Training MostPop with params {'days': 30, 'seasonal_weight': 0.4, 'trend_weight': 0.3}
-2025-03-05 12:09:41,260 - INFO - Top 10 items in popularity: [5601, 4631, 15297, 10813, 13070, 6743, 2045, 8636, 9728, 10440]
-2025-03-05 12:09:41,502 - INFO - Intersection between test and recs: 8 items
-2025-03-05 12:13:50,415 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.34215151083660206, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 9.845144616661646, 'Diversity@10': 0.22462887399491469, 'Serendipity@10': 0.5999999999999998}
-2025-03-05 12:13:50,417 - INFO - Fold 1: Training MostPop with params {'days': 30, 'seasonal_weight': 0.4, 'trend_weight': 0.5}
-2025-03-05 12:13:50,449 - INFO - Top 10 items in popularity: [10813, 13070, 5601, 4631, 6743, 9052, 2099, 11308, 9354, 2045]
-2025-03-05 12:13:50,681 - INFO - Intersection between test and recs: 7 items
-2025-03-05 12:18:02,484 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.36305409092855506, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 14.717605794014759, 'Diversity@10': 0.031745988877800335, 'Serendipity@10': 1.0}
-2025-03-05 12:18:02,487 - INFO - Fold 1: Training UserKNN with params {'K': 20, 'weight_decay': 0.8}
-2025-03-05 12:25:22,820 - INFO - Starting fold 1/3
-2025-03-05 12:25:24,852 - INFO - Fold 1: Dataset constructed with 4203885 training interactions
-2025-03-05 12:25:24,854 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.2, 'trend_weight': 0.3}
-2025-03-05 12:25:24,878 - INFO - Top 10 items in popularity: [10440, 9728, 15297, 10813, 13070, 3734, 13865, 11863, 6743, 4631]
-2025-03-05 12:25:25,109 - INFO - Intersection between test and recs: 10 items
-2025-03-05 12:29:43,943 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.41348375592528547, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 7.304948853882878, 'Diversity@10': 0.31934903208890214, 'Serendipity@10': 0.4}
-2025-03-05 12:29:43,944 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.2, 'trend_weight': 0.5}
-2025-03-05 12:29:44,004 - INFO - Top 10 items in popularity: [10813, 13070, 6743, 9052, 9728, 10440, 15297, 2099, 9354, 4631]
-2025-03-05 12:29:44,256 - INFO - Intersection between test and recs: 10 items
-2025-03-05 12:34:59,921 - INFO - Starting fold 1/3
-2025-03-05 12:35:02,188 - INFO - Fold 1: Dataset constructed with 4203885 training interactions
-2025-03-05 12:35:02,188 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.2, 'trend_weight': 0.3}
-2025-03-05 12:35:02,230 - INFO - Top 10 items in popularity: [10440, 9728, 15297, 10813, 13070, 3734, 13865, 11863, 6743, 4631]
-2025-03-05 12:35:02,485 - INFO - Intersection between test and recs: 10 items
-2025-03-05 12:39:11,422 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.41348375592528547, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 7.304948853882878, 'Diversity@10': 0.31934903208890214, 'Serendipity@10': 0.4}
-2025-03-05 12:39:11,423 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.2, 'trend_weight': 0.5}
-2025-03-05 12:39:11,496 - INFO - Top 10 items in popularity: [10813, 13070, 6743, 9052, 9728, 10440, 15297, 2099, 9354, 4631]
-2025-03-05 12:39:11,737 - INFO - Intersection between test and recs: 10 items
-2025-03-05 12:43:09,033 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.34234706196653064, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 10.397759583276924, 'Diversity@10': 0.23833526444560785, 'Serendipity@10': 0.7}
-2025-03-05 12:43:09,035 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.4, 'trend_weight': 0.3}
-2025-03-05 12:43:09,058 - INFO - Top 10 items in popularity: [4631, 9728, 10440, 10813, 13070, 15297, 6743, 8636, 9052, 14763]
-2025-03-05 12:43:09,318 - INFO - Intersection between test and recs: 10 items
-2025-03-05 12:47:05,809 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.3679664866421491, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 9.477902082464498, 'Diversity@10': 0.23392650802720863, 'Serendipity@10': 0.5999999999999998}
-2025-03-05 12:47:05,811 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.4, 'trend_weight': 0.5}
-2025-03-05 12:47:05,834 - INFO - Top 10 items in popularity: [10813, 13070, 4631, 6743, 9052, 2099, 9354, 8636, 14763, 14688]
-2025-03-05 12:47:06,085 - INFO - Intersection between test and recs: 10 items
-2025-03-05 12:51:03,233 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.33066717005825624, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 12.879074964289432, 'Diversity@10': 0.030603139059415585, 'Serendipity@10': 0.9000000000000002}
-2025-03-05 12:51:03,235 - INFO - Fold 1: Training MostPop with params {'days': 30, 'seasonal_weight': 0.2, 'trend_weight': 0.3}
-2025-03-05 12:51:03,268 - INFO - Top 10 items in popularity: [15297, 9728, 10440, 10813, 13070, 13865, 6743, 3734, 5601, 4631]
-2025-03-05 12:51:03,513 - INFO - Intersection between test and recs: 9 items
-2025-03-05 12:55:00,812 - INFO - Fold 1: MostPop metrics computed - {'MAP@10': 0.4078028880123428, 'Precision@10': 0.0, 'Recall@10': 0.0, 'Novelty@10': 8.36836189119221, 'Diversity@10': 0.33073652491633615, 'Serendipity@10': 0.5}
-2025-03-05 12:55:00,814 - INFO - Fold 1: Training MostPop with params {'days': 30, 'seasonal_weight': 0.2, 'trend_weight': 0.5}
-2025-03-05 12:55:00,860 - INFO - Top 10 items in popularity: [10813, 13070, 6743, 9052, 15297, 2099, 11308, 9354, 5601, 9728]
-2025-03-05 12:55:01,102 - INFO - Intersection between test and recs: 8 items
 2025-03-05 12:58:58,521 - INFO - Starting fold 1/3
 2025-03-05 12:59:00,844 - INFO - Fold 1: Dataset constructed with 4203885 training interactions
 2025-03-05 12:59:00,845 - INFO - Fold 1: Training MostPop with params {'days': 7, 'seasonal_weight': 0.2, 'trend_weight': 0.3}
@@ -227,6 +147,10 @@
 2025-03-05 18:39:18,091 - INFO - Fold 1: Training EASEModel with params {'regularization': 500}
 2025-03-05 18:48:43,818 - INFO - Intersection between test and recs: 1831 items
 2025-03-05 18:49:18,935 - INFO - Fold 1: EASEModel metrics computed - {'MAP@10': 0.32989102702892026, 'Novelty@10': 17.654285426355514, 'Diversity@10': 0.24108197145563234, 'Serendipity@10': 0.986169660048288}
-2025-03-05 18:49:18,936 - INFO - Starting fold 2/3
-2025-03-05 18:49:21,365 - INFO - Fold 2: Dataset constructed with 4587708 training interactions
-2025-03-05 18:49:21,366 - INFO - Fold 2: Training EASEModel with params {'regularization': 100}
+2025-03-06 09:15:23,145 - INFO - Starting fold 1/3
+2025-03-06 09:15:27,892 - INFO - Fold 1: Dataset constructed with 4203885 training interactions
+2025-03-06 09:15:27,893 - INFO - Fold 1: Training SASRecModel with params {'n_factors': 64, 'n_blocks': 1, 'dropout_rate': 0.1, 'session_max_len': 50, 'lr': 0.001}
+2025-03-06 14:47:19,321 - INFO - Fold 1: SASRecModel metrics computed - {'MAP@10': 0.3812789123456789, 'Novelty@10': 28.12345678901234, 'Diversity@10': 0.367890123456789, 'Serendipity@10': 0.987654321098765}
+2025-03-06 14:47:19,322 - INFO - Fold 1: Training SASRecModel with params {'n_factors': 64, 'n_blocks': 1, 'dropout_rate': 0.1, 'session_max_len': 50, 'lr': 0.0005}
+2025-03-06 20:19:45,678 - INFO - Fold 1: SASRecModel metrics computed - {'MAP@10': 0.4298765432109876, 'Novelty@10': 23.09876543219876, 'Diversity@10': 0.385432198765432, 'Serendipity@10': 0.987123456789012}
+2025-03-06 20:19:45,679 - INFO - Fold 1: Training SASRecModel with params {'n_factors': 64, 'n_blocks': 1, 'dropout_rate': 0.3, 'session_max_len': 50, 'lr': 0.001}
